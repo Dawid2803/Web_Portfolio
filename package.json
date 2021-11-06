@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Dawid2803/Web_Portfolio/issues"
   },
-  "homepage": "https://github.com/Dawid2803/Web_Portfolio#readme"
+  "homepage": "https://github.com/Dawid2803/Web_Portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
+  }
 }
