@@ -4,46 +4,46 @@
             "id": "0",
             "project_name": "Random-Quote-Generator",
             "description": "Website that generates random quotes from famous individuals",
-            "technologies": [""],
-            "live_link": "",
-            "github_link": "",
-            "image_urls": [""]
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": "https://dawid2803.github.io/Techdegree-project---Random-Quote-Generator/",
+            "github_link": "https://github.com/Dawid2803/Techdegree-project---Random-Quote-Generator",
+            "image_urls": ["./images/550_550px_random_quote_generator.jpg", "./images/1200_550px_phrasehunter.jpg"]
         },
         {
             "id": "1",
             "project_name": "data-pagination-and-filtering",
             "description": "a Website that takes user information and forms a student card per student, also uses pagination to only display 9 students per page(or less depending on the total amount of students",
-            "technologies": [""],
-            "live_link": "",
-            "github_link": "",
-            "image_urls": [""]
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": "https://dawid2803.github.io/data-pagination-and-filtering/",
+            "github_link": "https://github.com/Dawid2803/data-pagination-and-filtering",
+            "image_urls": ["./images/data_pagination_550_x_550px.jpg", "./images/data_pagination_1200_550px.JPG"]
         },
         {
             "id": "2",
             "project_name": "interactive-form",
             "description": " An interactive form that validates user input and shows error messages if the information is invalid",
-            "technologies": [""],
-            "live_link": "",
-            "github_link": "",
-            "image_urls": [""]
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": "https://dawid2803.github.io/interactive_form_01/",
+            "github_link": "https://github.com/Dawid2803/Interactive-Form",
+            "image_urls": ["./images/550_550px_interactive_form.jpg", "./images/1200_550px_interactive_form.jpg"]
         },
         {
             "id": "3",
             "project_name": "PhraseHunter",
             "description": " This game sets a random quote for the player to guess. If he/she guesses wrong 5 times he/she will lose. If/he or she guesses correct the letter will correspond on the page, if he/she guesses all the letters correct he/she will win",
-            "technologies": [""],
-            "live_link": "",
-            "github_link": "",
-            "image_urls": [""]
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": "https://dawid2803.github.io/Phrasehunter/",
+            "github_link": "https://github.com/Dawid2803/Phrasehunter",
+            "image_urls": ["./images/550_550px_phrasehunter.jpg","./images/1200_550px_phrasehunter.jpg"]
         },
         {
             "id": "4",
             "project_name": "Employee_Directory",
             "description": "Directory of employees working for a mockup company.  Employees will be able to use the application to retrieve contact details from all other employees.",
-            "technologies": [""],
-            "live_link": "",
-            "github_link": "",
-            "image_urls": [""]
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": "https://dawid2803.github.io/Employee_directory_01/",
+            "github_link": "https://github.com/Dawid2803/Employee_Directory",
+            "image_urls": ["./images/550_550px_employee_directory.jpg", "./images/1200_550px_employee_directory.jpg"]
         }
     ]
 }
