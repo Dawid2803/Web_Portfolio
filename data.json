@@ -1,0 +1,49 @@
+{
+    "projects": [
+        {
+            "id": "0",
+            "project_name": "Random-Quote-Generator",
+            "description": "Website that generates random quotes from famous individuals",
+            "technologies": [""],
+            "live_link": "",
+            "github_link": "",
+            "image_urls": [""]
+        },
+        {
+            "id": "1",
+            "project_name": "data-pagination-and-filtering",
+            "description": "a Website that takes user information and forms a student card per student, also uses pagination to only display 9 students per page(or less depending on the total amount of students",
+            "technologies": [""],
+            "live_link": "",
+            "github_link": "",
+            "image_urls": [""]
+        },
+        {
+            "id": "2",
+            "project_name": "interactive-form",
+            "description": " An interactive form that validates user input and shows error messages if the information is invalid",
+            "technologies": [""],
+            "live_link": "",
+            "github_link": "",
+            "image_urls": [""]
+        },
+        {
+            "id": "3",
+            "project_name": "PhraseHunter",
+            "description": " This game sets a random quote for the player to guess. If he/she guesses wrong 5 times he/she will lose. If/he or she guesses correct the letter will correspond on the page, if he/she guesses all the letters correct he/she will win",
+            "technologies": [""],
+            "live_link": "",
+            "github_link": "",
+            "image_urls": [""]
+        },
+        {
+            "id": "4",
+            "project_name": "Employee_Directory",
+            "description": "Directory of employees working for a mockup company.  Employees will be able to use the application to retrieve contact details from all other employees.",
+            "technologies": [""],
+            "live_link": "",
+            "github_link": "",
+            "image_urls": [""]
+        }
+    ]
+}
