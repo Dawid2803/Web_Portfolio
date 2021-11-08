@@ -24,7 +24,7 @@
             "description": " An interactive form that validates user input and shows error messages if the information is invalid",
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "https://dawid2803.github.io/interactive_form_01/",
-            "github_link": "https://github.com/Dawid2803/Interactive-Form",
+            "github_link": "https://github.com/Dawid2803/interactive_form_01",
             "image_urls": ["./images/550_550px_interactive_form.jpg", "./images/1200_550px_interactive_form.jpg"]
         },
         {
@@ -42,7 +42,7 @@
             "description": "Directory of employees working for a mockup company.  Employees will be able to use the application to retrieve contact details from all other employees.",
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "https://dawid2803.github.io/Employee_directory_01/",
-            "github_link": "https://github.com/Dawid2803/Employee_Directory",
+            "github_link": "https://github.com/Dawid2803/Employee_directory_01",
             "image_urls": ["./images/550_550px_employee_directory.jpg", "./images/1200_550px_employee_directory.jpg"]
         }
     ]
