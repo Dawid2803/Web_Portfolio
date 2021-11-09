@@ -7,7 +7,7 @@
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "https://dawid2803.github.io/Techdegree-project---Random-Quote-Generator/",
             "github_link": "https://github.com/Dawid2803/Techdegree-project---Random-Quote-Generator",
-            "image_urls": ["./images/550_550px_random_quote_generator.jpg", "./images/1200_550px_phrasehunter.jpg"]
+            "image_urls": ["./static/images/550_550px_random_quote_generator.jpg", "./images/1200_550px_phrasehunter.jpg"]
         },
         {
             "id": "1",
@@ -16,7 +16,7 @@
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "https://dawid2803.github.io/data-pagination-and-filtering/",
             "github_link": "https://github.com/Dawid2803/data-pagination-and-filtering",
-            "image_urls": ["./images/data_pagination_550_x_550px.jpg", "./images/data_pagination_1200_550px.JPG"]
+            "image_urls": ["./static/images/data_pagination_550_x_550px.jpg", "./images/data_pagination_1200_550px.JPG"]
         },
         {
             "id": "2",
@@ -25,7 +25,7 @@
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "https://dawid2803.github.io/interactive_form_01/",
             "github_link": "https://github.com/Dawid2803/interactive_form_01",
-            "image_urls": ["./images/550_550px_interactive_form.jpg", "./images/1200_550px_interactive_form.jpg"]
+            "image_urls": ["./static/images/550_550px_interactive_form.jpg", "./images/1200_550px_interactive_form.jpg"]
         },
         {
             "id": "3",
@@ -34,7 +34,7 @@
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "https://dawid2803.github.io/Phrasehunter/",
             "github_link": "https://github.com/Dawid2803/Phrasehunter",
-            "image_urls": ["./images/550_550px_phrasehunter.jpg","./images/1200_550px_phrasehunter.jpg"]
+            "image_urls": ["./static/images/550_550px_phrasehunter.jpg","./images/1200_550px_phrasehunter.jpg"]
         },
         {
             "id": "4",
@@ -43,7 +43,7 @@
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "https://dawid2803.github.io/Employee_directory_01/",
             "github_link": "https://github.com/Dawid2803/Employee_directory_01",
-            "image_urls": ["./images/550_550px_employee_directory.jpg", "./images/1200_550px_employee_directory.jpg"]
+            "image_urls": ["./static/images/550_550px_employee_directory.jpg", "./images/1200_550px_employee_directory.jpg"]
         }
     ]
 }

@@ -3,8 +3,12 @@ const projectData = require('./data.json');
 const path = require('path');
 const createError = require('http-errors');
 
+console.log(projectData.projects[0].image_urls[0]);
+
 const app = express();
 app.set('view engine', 'pug');
+app.use(express.urlencoded({extended: true}));
+
 
 app.use('/static', express.static('public'));
 
@@ -30,7 +34,7 @@ const create404Error = (req, res, next) => {
   };
 
 //404 error for undefined routes
-app.use(create404Error);
+//app.use(create404Error);
 
 //global error handler
 
