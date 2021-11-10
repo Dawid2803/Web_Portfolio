@@ -3,7 +3,6 @@ const projectData = require('./data.json');
 const path = require('path');
 const createError = require('http-errors');
 
-console.log(projectData.projects[0].image_urls[0]);
 
 const app = express();
 app.set('view engine', 'pug');
@@ -12,7 +11,7 @@ app.use(express.urlencoded({extended: true}));
 
 app.use('/static', express.static('public'));
 
-app.get('/', (req, res) =>{
+app.get('/', (req, res,) =>{
     res.render('index', { projectData });
 });
 
@@ -26,18 +25,24 @@ app.get('/projects/:id', (req, res) =>{
     res.render('project', { projectShown });
 });
 
-const create404Error = (req, res, next) => {
+//404 error for undefined routes
+app.use((req, res, next) => {
     const err404 = new Error('Page Not Found');
     err404.status = 404;
     err404.message = "Looks like the page you were looking for does not exist";
-    console.error(`Error Message: ${err404.message}`, `Error Code: ${err404.status}`);
-  };
-
-//404 error for undefined routes
-//app.use(create404Error);
+    next(err404);
+  });
 
 //global error handler
-
+app.use((err, req, res, next) => {
+    if(err.status === 404){
+        console.log(err.message);
+    }else{
+        err.status = 500;
+        err.message = 'Oops something went wrong'
+        console.log(err.message);
+    }
+})
 
 
 
