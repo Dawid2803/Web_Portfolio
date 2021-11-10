@@ -11,14 +11,17 @@ app.use(express.urlencoded({extended: true}));
 
 app.use('/static', express.static('public'));
 
+//route to landing page
 app.get('/', (req, res,) =>{
     res.render('index', { projectData });
 });
 
+//route to about page
 app.get('/about', (req, res) =>{
     res.render('about');
 });
 
+//route to project pages
 app.get('/projects/:id', (req, res) =>{
     const { id } = req.params;
     const projectShown = projectData.projects[id];
@@ -43,10 +46,6 @@ app.use((err, req, res, next) => {
         console.log(err.message);
     }
 })
-
-
-
-
 
 app.listen(3000, () => {
     console.log("the app is running on port 3000");
