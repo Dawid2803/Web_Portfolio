@@ -1,0 +1,14 @@
+extends layout.pug
+
+block content 
+
+    nav.nav
+      a(href='/')
+        span &larr;
+        |  Back
+
+    h1 #{err.message} Click the "back" button to return to the home page :)
+
+    h2 Error Status: #{err.status}
+
+    p= err.stack

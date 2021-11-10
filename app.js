@@ -32,7 +32,7 @@ app.get('/projects/:id', (req, res) =>{
 app.use((req, res, next) => {
     const err404 = new Error('Page Not Found');
     err404.status = 404;
-    err404.message = "Looks like the page you were looking for does not exist";
+    err404.message = "Looks like the page you were looking for does not exist!";
     next(err404);
   });
 
@@ -40,10 +40,12 @@ app.use((req, res, next) => {
 app.use((err, req, res, next) => {
     if(err.status === 404){
         console.log(err.message);
+        res.render('page-not-found', {err});
     }else{
         err.status = 500;
-        err.message = 'Oops something went wrong'
+        err.message = 'Oops something went wrong!'
         console.log(err.message);
+        res.render("error.pug", {err});
     }
 })
 
