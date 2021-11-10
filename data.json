@@ -7,7 +7,7 @@
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "https://dawid2803.github.io/Techdegree-project---Random-Quote-Generator/",
             "github_link": "https://github.com/Dawid2803/Techdegree-project---Random-Quote-Generator",
-            "image_urls": ["./static/images/550_550px_random_quote_generator.jpg", "./static/images/1200_550px_random_quote_generator.jpg"]
+            "image_urls": ["./static/images/550_550px_random_quote_generator.jpg", "./static/images/1200_550px_random_quote_generator.jpg", "./static/images/1200_550px_random_quote_generator_2.png"]
         },
         {
             "id": "1",
