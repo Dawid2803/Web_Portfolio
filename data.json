@@ -7,7 +7,7 @@
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "https://dawid2803.github.io/Techdegree-project---Random-Quote-Generator/",
             "github_link": "https://github.com/Dawid2803/Techdegree-project---Random-Quote-Generator",
-            "image_urls": ["./static/images/550_550px_random_quote_generator.jpg", "./static/images/1200_550px_random_quote_generator.jpg", "./static/images/1200_550px_random_quote_generator_2.png"]
+            "image_urls": ["./static/images/550_550px_random_quote_generator.jpg", "./static/images/1200_550px_random_quote_generator.png", "./static/images/1200_550px_random_quote_generator_2.png", "./static/images/1200_550px_random_quote_generator_3.png"]
         },
         {
             "id": "1",
@@ -16,7 +16,7 @@
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "https://dawid2803.github.io/data-pagination-and-filtering/",
             "github_link": "https://github.com/Dawid2803/data-pagination-and-filtering",
-            "image_urls": ["./static/images/data_pagination_550_x_550px.jpg", "./static/images/data_pagination_1200_550px.JPG"]
+            "image_urls": ["./static/images/data_pagination_550_x_550px.jpg", "./static/images/data_pagination_1200_550px_1.png",  "./static/images/data_pagination_1200_550px_2.png" , "./static/images/data_pagination_1200_550px_3.png"]
         },
         {
             "id": "2",
@@ -25,7 +25,7 @@
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "https://dawid2803.github.io/interactive_form_01/",
             "github_link": "https://github.com/Dawid2803/interactive_form_01",
-            "image_urls": ["./static/images/550_550px_interactive_form.jpg", "./static/images/1200_550px_interactive_form.jpg"]
+            "image_urls": ["./static/images/550_550px_interactive_form.jpg", "./static/images/1200_550px_interactive_form_1.png", "./static/images/1200_550px_interactive_form_2.png", "./static/images/1200_550px_interactive_form_3.png"]
         },
         {
             "id": "3",
@@ -34,7 +34,7 @@
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "https://dawid2803.github.io/Phrasehunter/",
             "github_link": "https://github.com/Dawid2803/Phrasehunter",
-            "image_urls": ["./static/images/550_550px_phrasehunter.jpg","./static/images/1200_550px_phrasehunter.jpg"]
+            "image_urls": ["./static/images/550_550px_phrasehunter.jpg","./static/images/1200_550px_phrasehunter.jpg", "./static/images/1200_550px_phrasehunter_2.png", "./static/images/1200_550px_phrasehunter_3.png"]
         },
         {
             "id": "4",
@@ -43,7 +43,7 @@
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "https://dawid2803.github.io/Employee_directory_01/",
             "github_link": "https://github.com/Dawid2803/Employee_directory_01",
-            "image_urls": ["./static/images/550_550px_employee_directory.jpg", "./static/images/1200_550px_employee_directory.jpg"]
+            "image_urls": ["./static/images/550_550px_employee_directory.jpg", "./static/images/1200_550px_employee_directory.jpg", "./static/images/1200_550px_employee_directory_2.png", "./static/images/1200_550px_employee_directory_3.png"]
         }
     ]
 }
