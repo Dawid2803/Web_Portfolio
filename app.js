@@ -39,10 +39,12 @@ app.use((req, res, next) => {
 //global error handler
 app.use((err, req, res, next) => {
     if(err.status === 404){
+        console.log(err.message);
         res.render('page-not-found', {err});
     }else{
         err.status = 500;
         err.message = 'Oops something went wrong!'
+        console.log(err.message);
         res.render("error.pug", {err});
     }
 })
