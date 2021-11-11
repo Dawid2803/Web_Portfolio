@@ -43,7 +43,6 @@ app.use((err, req, res, next) => {
     }else{
         err.status = 500;
         err.message = 'Oops something went wrong!'
-        console.log(err.message);
         res.render("error.pug", {err});
     }
 })
