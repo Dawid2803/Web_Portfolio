@@ -1,0 +1,84 @@
+@keyframes fadeColor {
+    from {background-color: white;}
+    to {background-color: #3e6b8a;}
+}
+
+.portfolio-intro{
+    animation-name: fadeColor;
+    animation-duration: 2s;
+    background-color: #3e6b8a;
+}
+
+.portfolio-intro h1{
+    color: #061826;
+}
+
+.portfolio-intro p{
+    color: white;
+}
+
+.nav:hover {
+    background-color: #061826;
+}
+
+.nav{
+    background-color: #3e6b8a;
+}
+
+.nav a{
+    color: white;
+}
+
+.btn-link {
+    background-color: #061826;
+}
+
+.btn-live:hover {
+    background-color: #3e6b8a;
+}
+
+.btn-twitter:hover {
+    background-color: #00acee;
+}
+
+.btn-github:hover {
+    background-color: #171515;
+}
+
+.btn-linkedIn:hover {
+    background-color:  #0e76a8;
+}
+
+.sidebar {
+    background-color: #061826;
+}
+
+.sidebar p{
+    color: white;
+}
+
+.sidebar a{
+    color: white;
+}
+
+.sidebar h5{
+    font-family: 'Quicksand', sans-serif;
+}
+
+@font-face {
+    font-family: 'Quicksand', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+}
+
+body {
+    background-color: #061826;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.projects-box h5 {
+    font-family: 'Quicksand', sans-serif;
+}
