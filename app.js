@@ -39,7 +39,6 @@ app.use((req, res, next) => {
 //global error handler
 app.use((err, req, res, next) => {
     if(err.status === 404){
-        console.log(err.message);
         res.render('page-not-found', {err});
     }else{
         err.status = 500;
@@ -49,6 +48,8 @@ app.use((err, req, res, next) => {
     }
 })
 
-app.listen(3000, () => {
-    console.log("the app is running on port 3000");
-});
+// app.listen(3000, () => {
+//     console.log("the app is running on port 3000");
+// });
+
+    app.listen(process.env.PORT || 3000);
